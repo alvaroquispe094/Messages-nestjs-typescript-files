@@ -1,0 +1,13 @@
+### List all messages with rest client extension
+Get http://localhost:3000/messages
+
+### Create a new message
+Post http://localhost:3000/messages
+content-Type: application/json
+
+{
+    "content": "new message!!"
+}
+
+### Get a messages
+GET http://localhost:3000/messages/885
